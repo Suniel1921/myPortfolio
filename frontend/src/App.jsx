@@ -86,7 +86,7 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 {/* private route */}
                 <Route path='/dashboard' element={<PrivateRoute />}>
-                  <Route path='blog' element={<Blog />} />
+                <Route path='blog' element={<Blog />} />
 
                 </Route>
               </Route>
